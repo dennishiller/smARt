@@ -1,0 +1,20 @@
+<questions>
+	<question id=1>
+		<text> Foo? </text>
+		<answers>
+		<answer value=true> Bar! </answer>
+		<answer value=false> Wer? </answer>
+		<answer value=false> Wie? </answer>
+		<answer value=false> Was? </answer>
+	</answers>
+	</question>
+	<question id=2>
+		<text> Bitte Wer? </text>
+		<answers>
+		<answer value=true> Fuba! </answer>
+		<answer value=false> FooBar? </answer>
+		<answer value=false> Fürbar? </answer>
+		<answer value=false> Wofür? </answer>
+	</answer>
+	</question>
+</questions>
