@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
+using UnityEngine.SceneManagement;
 
 public class MenüScript : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MenüScript : MonoBehaviour
     bool pause = false;
     public GameObject start_button;
     public GameObject back_button;
+    public GameObject QuizTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -21,21 +23,12 @@ public class MenüScript : MonoBehaviour
     {
         VuforiaBehaviour.Instance.enabled = cameraOn;
         pauseAnimation();
+        ChangeToQuiz();
     }
 
     public void turnOnVuforia()
     {
-        //if (cameraOn == false)
-        //{
-            cameraOn = true;
-        //Debug.Log("IST AN");
-        //}
-        //else if(cameraOn == true)
-        //{
-        //    cameraOn = false;
-        //    //Debug.Log("IST AUS");
-        //}
-
+        cameraOn = true;
         start_button.SetActive(false);
         back_button.SetActive(true);
     }
@@ -70,5 +63,20 @@ public class MenüScript : MonoBehaviour
         {
             Time.timeScale = 0;
         }
+    }
+
+    private void ChangeToQuiz()
+    {
+        
+        //QuizTarget.GetComponent<TrackableBehaviour>().CurrentStatus;
+        //if (Input.GetKey(KeyCode.Q))
+        //{
+            var trackable = QuizTarget.GetComponent<TrackableBehaviour>();
+            var status = trackable.CurrentStatus;
+            if(status == TrackableBehaviour.Status.TRACKED)
+            {
+                SceneManager.LoadScene(1);
+            }
+        //}
     }
 }
