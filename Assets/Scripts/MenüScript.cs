@@ -7,9 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class MenüScript : MonoBehaviour
 {
-    bool cameraOn = false;
+    bool cameraOn = true;
     bool pause = false;
-    public GameObject start_button;
     public GameObject back_button;
     public GameObject QuizTarget;
 
@@ -30,14 +29,12 @@ public class MenüScript : MonoBehaviour
     public void turnOnVuforia()
     {
         cameraOn = true;
-        start_button.SetActive(false);
         back_button.SetActive(true);
     }
 
     public void backToMenu()
     {
         cameraOn = false;
-        start_button.SetActive(true);
         back_button.SetActive(false);
     }
 
