@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="372529d4-ee51-4c6a-9077-aa43a3d89acc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/VideoRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/VideoRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaEditorScripts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaEditorScripts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaEditorScripts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaEditorScripts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaScripts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaScripts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaScripts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/VuforiaScripts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/20ad41-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/20ad41-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/62/626dafce056a331448c6801a573b7892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/62/626dafce056a331448c6801a573b7892.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MME_VideoTutorial.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MME_VideoTutorial.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/ProcessJobs/ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0f040b177a679024d99e3a60ab1f5689" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3672f194fc3adfc47bef34911d77d762" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4a5786145060a51458b9d47285ee9d0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5448e73aa818bba4d9fcc4b81a8f476c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ba4a537ef09983f4192ffb5410aa2330" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bc8a0c4f9c9e7324e9a65b88a9bc2d44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-be73fefa58fb4c24f885646c5641cd11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ce59dfffff964494c986ef9391c46688" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dbdf4b80646eddb4cb1338fa4b31c4a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f1e2cc668d6c204429b708c41b9a0238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VuforiaEditorScripts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VuforiaEditorScripts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VuforiaScripts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VuforiaScripts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/VuforiaScripts.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/VuforiaScripts.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultModelRecoEventHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1552554418000" expanded="true" signature="0:375" ph="/* ============================================================================== ... */" />
+                <marker date="1552554418000" expanded="false" signature="383:429" ph="..." />
+                <marker date="1552554418000" expanded="true" signature="431:606" ph="/// A default implementation of Model Reco Event Handler. ... " />
+                <marker date="1552554418000" expanded="true" signature="689:10510" ph="{...}" />
+                <marker date="1552554418000" expanded="false" signature="696:897" ph="PRIVATE_MEMBER_VARIABLES" />
+                <marker date="1552554418000" expanded="false" signature="904:1188" ph="PROTECTED_MEMBER_VARIABLES" />
+                <marker date="1552554418000" expanded="false" signature="1195:2446" ph="PUBLIC_VARIABLES" />
+                <marker date="1552554418000" expanded="true" signature="1226:1333" ph="/// Can be set in the Unity inspector to display error messages in UI. ... " />
+                <marker date="1552554418000" expanded="true" signature="1451:1726" ph="/// Can be set in the Unity inspector to tell Vuforia whether it should: ... " />
+                <marker date="1552554418000" expanded="true" signature="1888:2190" ph="/// Can be set in the Unity inspector to tell Vuforia whether it should: ... " />
+                <marker date="1552554418000" expanded="false" signature="2454:4485" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1552554418000" expanded="true" signature="2495:2581" ph="/// register for events at the ModelRecoBehaviour ... " />
+                <marker date="1552554418000" expanded="true" signature="2598:2957" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="2772:2851" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="2976:4231" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="3163:3315" ph="/* Check periodically if model target is tracked and in view ... */" />
+                <marker date="1552554418000" expanded="true" signature="3473:4225" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="3574:3889" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="3652:3875" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="3906:4215" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="3985:4201" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="4266:4438" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="4313:4395" ph="{...}" />
+                <marker date="1552554418000" expanded="false" signature="4493:7220" ph="IModelRecoEventHandler_IMPLEMENTATION" />
+                <marker date="1552554418000" expanded="true" signature="4544:4643" ph="/// called when TargetFinder has been initialized successfully ... " />
+                <marker date="1552554418000" expanded="true" signature="4700:4845" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="4851:4923" ph="/// visualize initialization errors ... " />
+                <marker date="1552554418000" expanded="true" signature="4985:5195" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="5201:5265" ph="/// visualize update errors ... " />
+                <marker date="1552554418000" expanded="true" signature="5333:5477" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="5483:5568" ph="/// when we start scanning, clear all trackables ... " />
+                <marker date="1552554418000" expanded="true" signature="5615:5934" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="5773:5928" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="5940:6052" ph="/// Handles new search results. ... " />
+                <marker date="1552554418000" expanded="true" signature="6140:7163" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="6478:6563" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="6597:6708" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="6921:7157" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="7015:7147" ph="{...}" />
+                <marker date="1552554418000" expanded="false" signature="7228:9656" ph="PRIVATE_METHODS" />
+                <marker date="1552554418000" expanded="true" signature="7358:7826" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="7628:7798" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="7686:7788" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="7879:7967" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="8045:8979" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="9052:9624" ph="{...}" />
+                <marker date="1552554418000" expanded="false" signature="9663:10508" ph="PUBLIC_METHODS" />
+                <marker date="1552554418000" expanded="true" signature="9728:9770" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="9828:10473" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="9951:10373" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="10035:10218" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="10235:10327" ph="{...}" />
+                <marker date="1552554418000" expanded="true" signature="10386:10467" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/VideoPlayback.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <marker date="1561128071380" expanded="false" signature="6:78" ph="..." />
+                <marker date="1561128071380" expanded="true" signature="122:462" ph="{...}" />
+                <marker date="1561128071380" expanded="true" signature="236:257" ph="{...}" />
+                <marker date="1561128071380" expanded="true" signature="315:336" ph="{...}" />
+                <marker date="1561128071380" expanded="true" signature="380:460" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultModelRecoEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VideoPlayback.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/VideoPlayback.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.MME_VideoTutorial/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.MME_VideoTutorial/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-6" />
+    <option name="y" value="30" />
+    <option name="width" value="2100" />
+    <option name="height" value="1320" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="372529d4-ee51-4c6a-9077-aa43a3d89acc" name="Default Changelist" comment="" />
+      <created>1561121737073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561121737073</updated>
+      <workItem from="1561121750379" duration="2217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2217000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/VideoplayerButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VideoPlayback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1561128071380" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561128071380" expanded="true" signature="122:462" ph="{...}" />
+            <marker date="1561128071380" expanded="true" signature="236:257" ph="{...}" />
+            <marker date="1561128071380" expanded="true" signature="315:336" ph="{...}" />
+            <marker date="1561128071380" expanded="true" signature="380:460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultModelRecoEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1552554418000" expanded="true" signature="0:375" ph="/* ============================================================================== ... */" />
+            <marker date="1552554418000" expanded="false" signature="383:429" ph="..." />
+            <marker date="1552554418000" expanded="true" signature="431:606" ph="/// A default implementation of Model Reco Event Handler. ... " />
+            <marker date="1552554418000" expanded="true" signature="689:10510" ph="{...}" />
+            <marker date="1552554418000" expanded="false" signature="696:897" ph="PRIVATE_MEMBER_VARIABLES" />
+            <marker date="1552554418000" expanded="false" signature="904:1188" ph="PROTECTED_MEMBER_VARIABLES" />
+            <marker date="1552554418000" expanded="false" signature="1195:2446" ph="PUBLIC_VARIABLES" />
+            <marker date="1552554418000" expanded="true" signature="1226:1333" ph="/// Can be set in the Unity inspector to display error messages in UI. ... " />
+            <marker date="1552554418000" expanded="true" signature="1451:1726" ph="/// Can be set in the Unity inspector to tell Vuforia whether it should: ... " />
+            <marker date="1552554418000" expanded="true" signature="1888:2190" ph="/// Can be set in the Unity inspector to tell Vuforia whether it should: ... " />
+            <marker date="1552554418000" expanded="false" signature="2454:4485" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1552554418000" expanded="true" signature="2495:2581" ph="/// register for events at the ModelRecoBehaviour ... " />
+            <marker date="1552554418000" expanded="true" signature="2598:2957" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="2772:2851" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="2976:4231" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="3163:3315" ph="/* Check periodically if model target is tracked and in view ... */" />
+            <marker date="1552554418000" expanded="true" signature="3473:4225" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="3574:3889" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="3652:3875" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="3906:4215" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="3985:4201" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="4266:4438" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="4313:4395" ph="{...}" />
+            <marker date="1552554418000" expanded="false" signature="4493:7220" ph="IModelRecoEventHandler_IMPLEMENTATION" />
+            <marker date="1552554418000" expanded="true" signature="4544:4643" ph="/// called when TargetFinder has been initialized successfully ... " />
+            <marker date="1552554418000" expanded="true" signature="4700:4845" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="4851:4923" ph="/// visualize initialization errors ... " />
+            <marker date="1552554418000" expanded="true" signature="4985:5195" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="5201:5265" ph="/// visualize update errors ... " />
+            <marker date="1552554418000" expanded="true" signature="5333:5477" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="5483:5568" ph="/// when we start scanning, clear all trackables ... " />
+            <marker date="1552554418000" expanded="true" signature="5615:5934" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="5773:5928" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="5940:6052" ph="/// Handles new search results. ... " />
+            <marker date="1552554418000" expanded="true" signature="6140:7163" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="6478:6563" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="6597:6708" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="6921:7157" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="7015:7147" ph="{...}" />
+            <marker date="1552554418000" expanded="false" signature="7228:9656" ph="PRIVATE_METHODS" />
+            <marker date="1552554418000" expanded="true" signature="7358:7826" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="7628:7798" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="7686:7788" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="7879:7967" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="8045:8979" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="9052:9624" ph="{...}" />
+            <marker date="1552554418000" expanded="false" signature="9663:10508" ph="PUBLIC_METHODS" />
+            <marker date="1552554418000" expanded="true" signature="9728:9770" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="9828:10473" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="9951:10373" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="10035:10218" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="10235:10327" ph="{...}" />
+            <marker date="1552554418000" expanded="true" signature="10386:10467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
