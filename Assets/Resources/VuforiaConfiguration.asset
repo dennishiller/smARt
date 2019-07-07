@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AYE0m+L/////AAABmT8uWDGb+054gfm5grmMWOk0F7Ibhj6GpU747LrnNgnotVwP19SQSaRXo9C3u3lXR+/VJhnVA+56jVkto/x1yC8BVZiGSLRI+3ICpYTlBiEZfWUWDDjfhEPtAp71EJ+5NJRwkxsaIjV+b64DnC6qJdymRDqbQYOv+PM4mQrBWGYitzsLeX9ZKOV7hxmG2Ik5BTlTM9asTGDfCGNeaPI85jvU4fL9UzC+T0QULuI8Ua1S3uI2AvaOjmPXPP739DU5RqnkhrtA3JKbKCkWxvUJX1CAGwdstDblCMKnchV5XFZ216Q7b1lfWJIjTOfW5E1SBK6vV6pf/QwO8OqehKBfrs9JtCJ54ipYhB+ZDn3XPQIb
-    ufoLicenseKey: QVhLQll2RC8vLy8vQUFBQUtMTGF4OTB0c2t5UXFJL1pLS3o0M3pWR2ZhTVFyYzVEQ0VsQjNBNTJWVG5rMUtrSW8rbXVVeVE1c3VUWDlEZjhZemVhSmdtdGhZNjBON3dUR1VZU25IeitVT0ZsTGtsaDZxTWRYZ2hKdDBHdjdnTENaa2JPWWdGTXlUeFJxRjhUcUNoQzBFTUYvUldvcG1xejJvdGNvbTk2TCtKRHQzZ3hSK1A4RjMydy8zQzVqM2k1UjlvV0drWE0xMTZGK2s3Z2N0ZEwwSFZZQ3RveEJHd0VXemRyd2dZYzJZcXJWbDhKZXhGY2VHRWhQZS82UHduUkhzTDlZRkJPWFJEMTNubnl2QlNCakNiekRyYUJiVkZ2UzVINkVJN3NKYjE4RytPVnhZb0FJOHdOV1hGTThVSERJdk5KZG1SZTdYcTVVeS9DVklCdkZLR0FmYXZ3RUpKTmRhMG1BcVFJU0hxQ1JpMnk0b1ZmemZmMC9kRFo=
+    ufoLicenseKey: QVhmTyt3TC8vLy8vQUFBQUtKOGN1OXVYems1bG9abFhVNXlOV1U4UU8wZEdvak5sMnU2dWh4YzIrMzUrMU1RN0ZvMDR6OE1Uc2ttU3ZDT1J6SDRwK2FMeG10a3JOQ0FWNkNpaG50dkZhcElKeHZQeFg3dEdyWkF2aDF1M1N2VlJiamZiUmVBeHprVHV2WHRFT1dhUDY4Z3ppSDhzQTVudjNrbUlrZWVxSVZrNWNQaCswQUNKbVR2QzI3MWJOQ0gyY29MTjdnaTVOZjA5YWY1ODNVWW5RbDJTa2RNVmE0dUtHTkxjcW9jUm1BcE9qRGpTTGw5YW04bVBsQVVZQVY5WjYvTTcybzV4VU41UTZsTnVaSFRvdUZLejJGSkZPR1pWT2pmWUMweU9OZ0pUN3p4OGgvUXRSK0NzSHJJbmtSV05lc3QrL3RCY1lScWZFSzNPSi82b1NzVytIM012Nmw3eTNGWGR0VklQSFI4WnI1OVQxQnlzUzB2QWtJbmQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     version: 8.1.7
-    eulaAcceptedVersions: '{"Values":["7.2","8.0","0.0","8.1"]}'
+    eulaAcceptedVersions: '{"Values":["8.1","7.2","8.0","0.0"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -64,6 +64,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: "Microsoft\xAE LifeCam Cinema(TM)"
+    deviceNameSetInEditor: 
     turnOffWebCam: 0
     renderTextureLayer: 30

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="StatueOfLiberty" size="4.000000 2.999438" />
+    <ImageTarget name="Tropical_butterfly" size="4.000000 2.693410" />
+    <ImageTarget name="Schmetterling-Quiz" size="4.000000 4.000000" />
+    <ImageTarget name="freiheitsstatue-Marker" size="4.000000 3.193496" />
+    <ImageTarget name="Schmetterling-Marker2" size="4.000000 4.000000" />
     <ImageTarget name="video-logo2" size="4.000000 4.000000" />
-    <ImageTarget name="video-logo" size="4.000000 4.000000" />
     <ImageTarget name="depositphotos-quiz-logo" size="4.000000 3.979210" />
-    <ImageTarget name="tarmac_scaled" size="4.000000 2.796875" />
     <ImageTarget name="schmetterling-bild" size="3.000000 2.040441" />
-    <ImageTarget name="chips_scaled_scaled" size="7.000000 4.894531" />
   </Tracking>
 </QCARConfig>
