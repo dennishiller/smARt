@@ -4,9 +4,6 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Butterfly (Animated)" t="Include">
-          <e p="Butterfly (Animated).txt" t="Include" />
-        </e>
         <e p="Lean" t="Include">
           <e p="Common" t="Include">
             <e p="Examples" t="Include">
@@ -64,17 +61,24 @@
             </e>
           </e>
         </e>
+        <e p="Prefabs" t="Include">
+          <e p="Butterfly (Animated)" t="Include">
+            <e p="Butterfly (Animated).txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AnswerButton.cs" t="Include" />
           <e p="AnswerData.cs" t="Include" />
-          <e p="Database.cs" t="Include" />
+          <e p="ButtonController.cs" t="Include" />
           <e p="DataController.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="MenüScript.cs" t="Include" />
           <e p="QuestionData.cs" t="Include" />
           <e p="QuizManager.cs" t="Include" />
           <e p="RoundData.cs" t="Include" />
           <e p="SimpleObjectPool.cs" t="Include" />
+          <e p="SoundonClick.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
