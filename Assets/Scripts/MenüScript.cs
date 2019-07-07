@@ -10,7 +10,9 @@ public class MenüScript : MonoBehaviour
     bool cameraOn = true;
     bool pause = false;
     public GameObject back_button;
+    public GameObject pause_button;
     public GameObject QuizTarget;
+    public GameObject ButterflyTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +23,10 @@ public class MenüScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        VuforiaBehaviour.Instance.enabled = cameraOn;
+        //VuforiaBehaviour.Instance.enabled = cameraOn;
         pauseAnimation();
         ChangeToQuiz();
+        showPauseButton();
     }
 
     public void turnOnVuforia()
@@ -34,8 +37,8 @@ public class MenüScript : MonoBehaviour
 
     public void backToMenu()
     {
-        cameraOn = false;
-        back_button.SetActive(false);
+        //cameraOn = false;
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void pauseButton()
@@ -63,17 +66,31 @@ public class MenüScript : MonoBehaviour
         }
     }
 
+    private void showPauseButton()
+    {
+        var trackable = ButterflyTarget.GetComponent<TrackableBehaviour>();
+        var status = trackable.CurrentStatus;
+        if (status == TrackableBehaviour.Status.TRACKED)
+        {
+            pause_button.SetActive(true);
+        }
+        else
+            pause_button.SetActive(false);
+
+    }
+
     private void ChangeToQuiz()
     {
-        
         //QuizTarget.GetComponent<TrackableBehaviour>().CurrentStatus;
         //if (Input.GetKey(KeyCode.Q))
         //{
+        
             var trackable = QuizTarget.GetComponent<TrackableBehaviour>();
             var status = trackable.CurrentStatus;
-            if(status == TrackableBehaviour.Status.TRACKED)
+        Debug.Log(status);
+        if (status == TrackableBehaviour.Status.TRACKED)
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene("QuizScene");
             }
         //}
     }
