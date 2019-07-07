@@ -137,6 +137,8 @@ public class GameController : MonoBehaviour
     public void EndRound()
     {
         isRoundActive = false;
+        RemoveAnswerButtons();
+        questionDisplayText.text = "";
         Debug.Log(playerScore);
 
 
