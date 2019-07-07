@@ -8,7 +8,6 @@ public class GameController : MonoBehaviour
 {
     public Text questionDisplayText;
     public Text scoreDisplayText;
-    public Text timeRemainingDisplayText;
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
     public GameObject questionDisplay;
@@ -22,7 +21,6 @@ public class GameController : MonoBehaviour
     private QuestionData[] questionPool;
 
     private bool isRoundActive;
-    private float timeRemaining;
     private int questionIndex;
     private int playerScore;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
@@ -30,11 +28,10 @@ public class GameController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        roundEndDisplay.SetActive(false);
         dataController = FindObjectOfType<DataController>();
         currentRoundData = dataController.GetCurrentRoundData();
         questionPool = currentRoundData.questions;
-        timeRemaining = currentRoundData.timeLimitInSeconds;
-
 
         playerScore = 0;
         questionIndex = 0;
@@ -70,11 +67,6 @@ public class GameController : MonoBehaviour
     }
 
 
-    //      var colors = GetComponents<Button> ().colors;
-    //      colors.normalColor = Color.red;
-    //      GetComponent<Button> ().colors = colors;
-
-
     public void AnswerButtonClicked(bool isCorrect)
     {
         if (isCorrect)
@@ -85,14 +77,13 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            StartCoroutine(basAnswerDisplay());
+            playerScore -= currentRoundData.pointsAddedForCorrectAnswer;
+            StartCoroutine(badAnswerDisplay());
         }
 
         if (questionPool.Length > questionIndex + 1)
         {
             questionIndex++;
-       
-
             ShowQuestion();
         }
         else
@@ -105,16 +96,43 @@ public class GameController : MonoBehaviour
 
     IEnumerator correctAnswerDisplay()
     {
+        StartCoroutine(colorChangingGood());
         correctDisplay.SetActive(true);
         yield return new WaitForSeconds(1f);
         correctDisplay.SetActive(false);
     }
-    IEnumerator basAnswerDisplay()
+    IEnumerator badAnswerDisplay()
     {
+     
+        StartCoroutine(colorChangingBad());
+    
         badDisplay.SetActive(true);
         yield return new WaitForSeconds(1f);
         badDisplay.SetActive(false);
     }
+
+    IEnumerator colorChangingBad()
+    {
+        for (float i = 1; i >= 0; i -= Time.deltaTime)
+        {   
+            Image bg = badDisplay.GetComponent<Image>();
+            // set color with i as alpha
+            bg.color = new Color(1, 0, 0, i);
+            yield return null;
+        }
+    }
+
+    IEnumerator colorChangingGood()
+    {
+        for (float i = 0; i <= 1; i += Time.deltaTime)
+            {
+                Image bg = correctDisplay.GetComponent<Image>();
+                // set color with i as alpha
+                bg.color = new Color(0, 1, 0, i);
+                yield return null;
+            }
+        }
+
 
     public void EndRound()
     {
