@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Skripts" t="Include">
           <e p="ButtonHandler.cs" t="Include" />
+          <e p="VideoManager.cs" t="Include" />
+          <e p="VideoPlayer.cs" t="Include" />
           <e p="VirtualButtonHandeling.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
@@ -15,10 +17,6 @@
             <e p="Demo.xml" t="Include" />
             <e p="MMBeleg.xml" t="Include" />
           </e>
-        </e>
-        <e p="Videos" t="Include">
-          <e p="VideoManager.cs" t="Include" />
-          <e p="VideoPlayer.cs" t="Include" />
         </e>
         <e p="Vuforia" t="Include">
           <e p="Databases" t="Include">

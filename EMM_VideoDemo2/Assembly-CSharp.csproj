@@ -60,9 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Skripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Skripts\VideoManager.cs" />
+    <Compile Include="Assets\Skripts\VideoPlayer.cs" />
     <Compile Include="Assets\Skripts\VirtualButtonHandeling.cs" />
-    <Compile Include="Assets\Videos\VideoManager.cs" />
-    <Compile Include="Assets\Videos\VideoPlayer.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
