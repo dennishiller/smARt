@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Statue_of_Liberty" size="4.000000 5.470103" />
+    <ImageTarget name="StatueOfLiberty" size="4.000000 2.999438" />
     <ImageTarget name="Tropical_butterfly" size="4.000000 2.693410" />
     <ImageTarget name="Schmetterling-Quiz" size="4.000000 4.000000" />
     <ImageTarget name="freiheitsstatue-Marker" size="4.000000 3.193496" />

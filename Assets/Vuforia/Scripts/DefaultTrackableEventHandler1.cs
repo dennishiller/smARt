@@ -18,8 +18,8 @@ using Vuforia;
 public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandler
 {
 
-    public UnityEngine.Video.VideoPlayer videoplayer;
-
+    public UnityEngine.Video.VideoPlayer video;
+    public UnityEngine.Video.VideoPlayer canvasvideo;
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -86,7 +86,8 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
 
     protected virtual void OnTrackingFound()
     {
-        videoplayer.Play(); 
+        video.Play();
+
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
@@ -107,8 +108,8 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
 
     protected virtual void OnTrackingLost()
     {
-
-        videoplayer.Pause();
+        video.Pause();
+        canvasvideo.Pause();
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
