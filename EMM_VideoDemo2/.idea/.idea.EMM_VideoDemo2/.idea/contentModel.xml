@@ -9,7 +9,6 @@
         <e p="Skripts" t="Include">
           <e p="ButtonHandler.cs" t="Include" />
           <e p="VideoManager.cs" t="Include" />
-          <e p="VideoPlayer.cs" t="Include" />
           <e p="VirtualButtonHandeling.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">

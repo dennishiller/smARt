@@ -5,24 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EMM_VideoDemo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EMM_VideoDemo2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/VideoManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/VideoManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/VideoPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/VideoPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c4d652-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c4d652-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/20ad41-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/20ad41-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/d4/d444ff84da9a6cb4e96a61a7d831d0e0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d4/d444ff84da9a6cb4e96a61a7d831d0e0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/e3/e3e0bbb09c7c0cb46a976fb61da68347" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e3/e3e0bbb09c7c0cb46a976fb61da68347" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e3/e3e0bbb09c7c0cb46a976fb61da68347.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e3/e3e0bbb09c7c0cb46a976fb61da68347.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/fc/fc00bd29d24c78649b562fdd9cd6add1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fc/fc00bd29d24c78649b562fdd9cd6add1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fc/fc00bd29d24c78649b562fdd9cd6add1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fc/fc00bd29d24c78649b562fdd9cd6add1.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,18 +48,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="49">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
-                <marker date="1562606915614" expanded="false" signature="6:100" ph="..." />
-                <marker date="1562606915614" expanded="true" signature="143:1520" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="443:578" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="636:752" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="679:746" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="772:1518" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="815:1035" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="1066:1252" ph="{...}" />
-                <marker date="1562606915614" expanded="true" signature="1284:1509" ph="{...}" />
+                <marker date="1562610686878" expanded="false" signature="6:100" ph="..." />
+                <marker date="1562610686878" expanded="true" signature="143:1713" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="503:638" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="696:812" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="739:806" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="832:1711" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="875:1138" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="1169:1398" ph="{...}" />
+                <marker date="1562610686878" expanded="true" signature="1430:1702" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -220,12 +213,12 @@
       <updated>1561130014092</updated>
       <workItem from="1561130020902" duration="7966000" />
       <workItem from="1561474881078" duration="2553000" />
-      <workItem from="1562595911948" duration="3499000" />
+      <workItem from="1562595911948" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14018000" />
+    <option name="totallyTimeSpent" value="16913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +230,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -359,18 +353,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="49">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <marker date="1562606915614" expanded="false" signature="6:100" ph="..." />
-            <marker date="1562606915614" expanded="true" signature="143:1520" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="443:578" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="636:752" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="679:746" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="772:1518" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="815:1035" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="1066:1252" ph="{...}" />
-            <marker date="1562606915614" expanded="true" signature="1284:1509" ph="{...}" />
+            <marker date="1562610686878" expanded="false" signature="6:100" ph="..." />
+            <marker date="1562610686878" expanded="true" signature="143:1713" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="503:638" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="696:812" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="739:806" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="832:1711" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="875:1138" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="1169:1398" ph="{...}" />
+            <marker date="1562610686878" expanded="true" signature="1430:1702" ph="{...}" />
           </folding>
         </state>
       </provider>
