@@ -9,9 +9,9 @@ public class MenüScript : MonoBehaviour
 {
     bool cameraOn = true;
     bool pause = false;
-    public GameObject back_button;
     public GameObject pause_button;
-    public GameObject QuizTarget;
+    public GameObject SchmetterlingQuizTarget;
+    public GameObject StatueQuizTarget;
     public GameObject ButterflyTarget;
 
     // Start is called before the first frame update
@@ -25,14 +25,9 @@ public class MenüScript : MonoBehaviour
     {
         //VuforiaBehaviour.Instance.enabled = cameraOn;
         pauseAnimation();
-        ChangeToQuiz();
+        ChangeToSchmetterlingQuiz();
+        ChangeToStatueQuiz();
         showPauseButton();
-    }
-
-    public void turnOnVuforia()
-    {
-        cameraOn = true;
-        back_button.SetActive(true);
     }
 
     public void backToMenu()
@@ -79,19 +74,25 @@ public class MenüScript : MonoBehaviour
 
     }
 
-    private void ChangeToQuiz()
+    private void ChangeToSchmetterlingQuiz()
     {
-        //QuizTarget.GetComponent<TrackableBehaviour>().CurrentStatus;
-        //if (Input.GetKey(KeyCode.Q))
-        //{
-        
-            var trackable = QuizTarget.GetComponent<TrackableBehaviour>();
+            var trackable = SchmetterlingQuizTarget.GetComponent<TrackableBehaviour>();
             var status = trackable.CurrentStatus;
-        Debug.Log(status);
+        
         if (status == TrackableBehaviour.Status.TRACKED)
             {
-                SceneManager.LoadScene("QuizScene");
+                SceneManager.LoadScene("SchmetterlingQuizScene");
             }
-        //}
+    }
+
+    private void ChangeToStatueQuiz()
+    {
+        var trackable = StatueQuizTarget.GetComponent<TrackableBehaviour>();
+        var status = trackable.CurrentStatus;
+
+        if (status == TrackableBehaviour.Status.TRACKED)
+        {
+            SceneManager.LoadScene("StatueQuizScene");
+        }
     }
 }
