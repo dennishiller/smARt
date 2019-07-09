@@ -119,7 +119,6 @@
             <e p="Internal" t="Include">
               <e p="RuntimeOpenSourceInitializer.cs" t="Include" />
             </e>
-            <e p="VideoRotation.cs" t="Include" />
             <e p="VuforiaScripts.asmdef" t="Include" />
           </e>
           <e p="Shaders" t="Include">
