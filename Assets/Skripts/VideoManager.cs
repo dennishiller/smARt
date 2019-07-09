@@ -8,7 +8,6 @@ public class VideoManager : MonoBehaviour
 
     public Button btn;
     public UnityEngine.Video.VideoPlayer videoPlayerAR;
-    public Text text;
     public TextMesh virtualBtntext;
     public Sprite playinAr;
     public Sprite playOnScreen;
@@ -41,14 +40,14 @@ public class VideoManager : MonoBehaviour
             image.gameObject.SetActive(true);
             videoPlayerScreen.Play();
             btn.image.sprite = playinAr;
-            //text.text = "Play In AR";
+            
             virtualBtntext.text = "PAUSE";
         }  if (!videoPlayerAR.isPlaying)
         {
             image.gameObject.SetActive(true);
             videoPlayerScreen.Play();
             btn.image.sprite = playinAr;
-            //text.text = "Play In AR";
+            
             virtualBtntext.text = "PAUSE";
 
         } if(videoPlayerScreen.isPlaying)
@@ -57,7 +56,7 @@ public class VideoManager : MonoBehaviour
             videoPlayerScreen.Pause();
             videoPlayerAR.Play();
             btn.image.sprite = playOnScreen;
-            //text.text = "Play On Screen";
+            
             virtualBtntext.text = "PLAY";
 
         }

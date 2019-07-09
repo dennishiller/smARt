@@ -34,6 +34,7 @@ public class VirtualButtonHandeling : MonoBehaviour, IVirtualButtonEventHandler
     {
         if (VideoPlayer.isPlaying)
         {
+            Debug.Log("pause pressed");
             VideoPlayer.Pause();
             text.text = "PAUSE";
             Debug.Log("isPlaying");

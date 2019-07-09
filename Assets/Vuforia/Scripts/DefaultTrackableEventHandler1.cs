@@ -7,6 +7,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Video;
 using Vuforia;
 
 /// <summary>
@@ -20,6 +22,9 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
 
     public UnityEngine.Video.VideoPlayer video;
     public UnityEngine.Video.VideoPlayer canvasvideo;
+    public Button playOn;
+    
+    
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -35,6 +40,16 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+        
+        playOn.onClick.AddListener(TaskOnClick);
+    }
+
+    bool TaskOnClick()
+    {
+        if ()
+        {
+            
+        }
     }
 
     protected virtual void OnDestroy()
@@ -108,8 +123,8 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
 
     protected virtual void OnTrackingLost()
     {
+        double current = video.time;
         video.Pause();
-        canvasvideo.Pause();
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
