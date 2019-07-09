@@ -32,7 +32,7 @@ public class VideoManager : MonoBehaviour
 
     void onARClick()
     {
-        Debug.Log("onARClick");
+        
 
         currentTime = videoPlayerScreen.time;
 
@@ -43,17 +43,22 @@ public class VideoManager : MonoBehaviour
 
         videoPlayerAR.gameObject.SetActive(true);
         btn.gameObject.SetActive(true);
+        
+        
 
         videoPlayerAR.Play();
 
         if (videoPlayerAR.isPlaying)
         {
             btn.gameObject.SetActive(true);
+            virtualBtntext.text = "PAUSE";
         }
 
         if (videoImageTarget.GetComponent<TrackableBehaviour>().CurrentStatus != TrackableBehaviour.Status.TRACKED)
         {
             btn.gameObject.SetActive(false);
+            videoPlayerAR.Pause();
+            
            
         }
     }
@@ -63,7 +68,7 @@ public class VideoManager : MonoBehaviour
         
         if (videoPlayerAR.isPlaying && !videoPlayerScreen.gameObject.activeSelf)
         {
-            Debug.Log("videoPlayerAR.isPlaying && !screenVideo.activeSelf");
+            
             currentTime = videoPlayerAR.time;
             videoPlayerAR.Pause();
 
@@ -86,7 +91,7 @@ public class VideoManager : MonoBehaviour
 
         if (!videoPlayerAR.isPlaying && !videoPlayerScreen.gameObject.activeSelf)
         {
-            Debug.Log("!videoPlayerAR.isPlaying && !screenVideo.activeSelf");
+            
 
             currentTime = videoPlayerAR.time;
 
@@ -101,7 +106,7 @@ public class VideoManager : MonoBehaviour
 
             videoPlayerScreen.Play();
 
-            virtualBtntext.text = "PAUSE";
+            virtualBtntext.text = "PLAY";
         }
     }
 }

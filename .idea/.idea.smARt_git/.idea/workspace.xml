@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b020edc-7024-464b-85ef-1eda7c21f295" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/All-Scenes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/All-Scenes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="-455">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
-                <marker date="1562687455369" expanded="true" signature="6:148" ph="..." />
-                <marker date="1562687455369" expanded="true" signature="191:2604" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="550:656" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="678:1335" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="1071:1135" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="1252:1329" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="1355:2602" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="1451:1989" ph="{...}" />
-                <marker date="1562687455369" expanded="true" signature="2081:2596" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="6:148" ph="..." />
+                <marker date="1562688201171" expanded="true" signature="191:2560" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="550:656" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="678:1421" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="1066:1173" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="1290:1415" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="1441:2558" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="1537:2011" ph="{...}" />
+                <marker date="1562688201171" expanded="true" signature="2103:2552" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="514">
               <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
               <folding>
                 <marker date="1562687652405" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
@@ -96,18 +94,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="680">
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding>
-                <marker date="1562667112710" expanded="false" signature="6:115" ph="..." />
-                <marker date="1562667112710" expanded="true" signature="196:1314" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="359:732" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="590:725" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="790:811" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="871:1230" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="912:1074" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="1104:1224" ph="{...}" />
-                <marker date="1562667112710" expanded="true" signature="1291:1312" ph="{...}" />
+                <marker date="1562687869181" expanded="false" signature="6:115" ph="..." />
+                <marker date="1562687869181" expanded="true" signature="196:1241" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="359:732" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="590:725" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="790:811" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="871:1157" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="912:1023" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="1053:1151" ph="{...}" />
+                <marker date="1562687869181" expanded="true" signature="1218:1239" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,10 +126,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" />
       </list>
     </option>
   </component>
@@ -211,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562665256993</updated>
-      <workItem from="1562665266747" duration="18255000" />
+      <workItem from="1562665266747" duration="18798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18255000" />
+    <option name="totallyTimeSpent" value="18798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,24 +272,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <marker date="1562667112710" expanded="false" signature="6:115" ph="..." />
-            <marker date="1562667112710" expanded="true" signature="196:1314" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="359:732" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="590:725" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="790:811" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="871:1230" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="912:1074" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="1104:1224" ph="{...}" />
-            <marker date="1562667112710" expanded="true" signature="1291:1312" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -344,27 +324,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
           <folding>
-            <marker date="1562687455369" expanded="true" signature="6:148" ph="..." />
-            <marker date="1562687455369" expanded="true" signature="191:2604" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="550:656" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="678:1335" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="1071:1135" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="1252:1329" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="1355:2602" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="1451:1989" ph="{...}" />
-            <marker date="1562687455369" expanded="true" signature="2081:2596" ph="{...}" />
+            <marker date="1562687869181" expanded="false" signature="6:115" ph="..." />
+            <marker date="1562687869181" expanded="true" signature="196:1241" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="359:732" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="590:725" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="790:811" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="871:1157" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="912:1023" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="1053:1151" ph="{...}" />
+            <marker date="1562687869181" expanded="true" signature="1218:1239" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="514">
           <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
           <folding>
             <marker date="1562687652405" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
@@ -385,6 +365,24 @@
             <marker date="1562687652405" expanded="true" signature="3002:4534" ph="PROTECTED_METHODS" />
             <marker date="1562687652405" expanded="true" signature="3073:3763" ph="{...}" />
             <marker date="1562687652405" expanded="true" signature="3809:4497" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1562688201171" expanded="true" signature="6:148" ph="..." />
+            <marker date="1562688201171" expanded="true" signature="191:2560" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="550:656" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="678:1421" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="1066:1173" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="1290:1415" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="1441:2558" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="1537:2011" ph="{...}" />
+            <marker date="1562688201171" expanded="true" signature="2103:2552" ph="{...}" />
           </folding>
         </state>
       </provider>

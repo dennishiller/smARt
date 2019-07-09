@@ -2360,6 +2360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ARBtn: {fileID: 422408034}
   video: {fileID: 1972800315}
+  virtualBtn: {fileID: 427955290}
 --- !u!43 &1077882204
 Mesh:
   m_ObjectHideFlags: 0
