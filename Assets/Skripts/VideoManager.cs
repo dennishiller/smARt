@@ -1,67 +1,112 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
+using Vuforia;
 
 public class VideoManager : MonoBehaviour
 {
-
     public Button btn;
-    public UnityEngine.Video.VideoPlayer videoPlayerAR;
-    public TextMesh virtualBtntext;
-    public Sprite playinAr;
-    public Sprite playOnScreen;
+    public Button playInARBtn;
 
-    public RawImage image;
+    public TextMesh virtualBtntext;
+
+    public UnityEngine.Video.VideoPlayer videoPlayerAR;
+
+    public GameObject videoImageTarget;
+
+
+
     public UnityEngine.Video.VideoPlayer videoPlayerScreen;
+
+    private double currentTime;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        playInARBtn.onClick.AddListener(onARClick);
         btn.onClick.AddListener(OnClick);
-        videoPlayerScreen = image.GetComponent<UnityEngine.Video.VideoPlayer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void onARClick()
     {
+        
+
+        currentTime = videoPlayerScreen.time;
+
+        videoPlayerAR.time = currentTime;
+
+        videoPlayerScreen.gameObject.SetActive(false);
+        playInARBtn.gameObject.SetActive(false);
+
+        videoPlayerAR.gameObject.SetActive(true);
+        btn.gameObject.SetActive(true);
+        
+        
+
+        videoPlayerAR.Play();
+
         if (videoPlayerAR.isPlaying)
         {
-            image.gameObject.SetActive(false);
+            btn.gameObject.SetActive(true);
+            virtualBtntext.text = "PAUSE";
+        }
+
+        if (videoImageTarget.GetComponent<TrackableBehaviour>().CurrentStatus != TrackableBehaviour.Status.TRACKED)
+        {
+            btn.gameObject.SetActive(false);
+            videoPlayerAR.Pause();
+            
+           
         }
     }
 
     void OnClick()
     {
-        if (videoPlayerAR.isPlaying)
+        
+        if (videoPlayerAR.isPlaying && !videoPlayerScreen.gameObject.activeSelf)
         {
+            
+            currentTime = videoPlayerAR.time;
             videoPlayerAR.Pause();
-            image.gameObject.SetActive(true);
-            videoPlayerScreen.Play();
-            btn.image.sprite = playinAr;
-            
-            virtualBtntext.text = "PAUSE";
-        }  if (!videoPlayerAR.isPlaying)
-        {
-            image.gameObject.SetActive(true);
-            videoPlayerScreen.Play();
-            btn.image.sprite = playinAr;
-            
-            virtualBtntext.text = "PAUSE";
 
-        } if(videoPlayerScreen.isPlaying)
-        {
-            image.gameObject.SetActive(false);
-            videoPlayerScreen.Pause();
-            videoPlayerAR.Play();
-            btn.image.sprite = playOnScreen;
+            videoPlayerScreen.time = currentTime;
             
+            btn.gameObject.SetActive(false);
+
+            videoPlayerScreen.gameObject.SetActive(true);
+            playInARBtn.gameObject.SetActive(true);
+
+
+            videoPlayerAR.gameObject.SetActive(false);
+
+
+            videoPlayerScreen.Play();
+
             virtualBtntext.text = "PLAY";
-
         }
+        
 
+        if (!videoPlayerAR.isPlaying && !videoPlayerScreen.gameObject.activeSelf)
+        {
+            
 
+            currentTime = videoPlayerAR.time;
 
+            videoPlayerScreen.time = currentTime;
+            
+            btn.gameObject.SetActive(false);
+
+            videoPlayerScreen.gameObject.gameObject.SetActive(true);
+            playInARBtn.gameObject.SetActive(true);
+
+            videoPlayerAR.gameObject.SetActive(false);
+
+            videoPlayerScreen.Play();
+
+            virtualBtntext.text = "PLAY";
+        }
     }
 }

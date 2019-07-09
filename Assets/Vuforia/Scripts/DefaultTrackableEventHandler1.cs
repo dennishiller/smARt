@@ -22,8 +22,11 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
     //public UnityEngine.Video.VideoPlayer video;
     //public UnityEngine.Video.VideoPlayer canvasvideo;
     //public Button playOn;
+    public GameObject ARBtn;
 
+    public VideoPlayer video;
 
+    public TextMesh virtualBtn;
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -99,6 +102,10 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
     protected virtual void OnTrackingFound()
     {
         //video.Play();
+        ARBtn.SetActive(true);
+        video.Play();
+        virtualBtn.text = "PAUSE";
+        
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
@@ -122,6 +129,9 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
     {
         //double current = video.time;
         //video.Pause();
+        video.Pause();
+        virtualBtn.text = "PLAY";
+        ARBtn.SetActive(false);
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);

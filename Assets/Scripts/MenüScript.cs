@@ -79,6 +79,7 @@ public class MenüScript : MonoBehaviour
             var trackable = SchmetterlingQuizTarget.GetComponent<TrackableBehaviour>();
             var status = trackable.CurrentStatus;
         
+        //Debug.Log(status);
         if (status == TrackableBehaviour.Status.TRACKED)
             {
                 SceneManager.LoadScene("SchmetterlingQuizScene");
