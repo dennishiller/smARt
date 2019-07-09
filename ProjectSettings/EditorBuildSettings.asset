@@ -15,12 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/VideoScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/SchmetterlingQuizScene.unity
-    guid: 2a1e9df7e7973e14d84af7d5077253e4
-  - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: 30c2c4a9c323f224b96b9ddb7620c155
   - enabled: 1
     path: Assets/Scenes/StatueQuizScene.unity
-    guid: 12c73a39a9e21624b9be80681ba39e17
+    guid: 9cd6ef3b4215c4447ab51d7684d8ede1
+  - enabled: 1
+    path: Assets/Scenes/SchmetterlingQuizScene.unity
+    guid: 8cbf8a76d9c96b9489ba1681f433d32c
   m_configObjects: {}
