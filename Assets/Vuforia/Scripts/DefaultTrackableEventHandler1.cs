@@ -7,6 +7,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using Vuforia;
@@ -17,14 +18,32 @@ using Vuforia;
 /// Changes made to this file could be overwritten when upgrading the Vuforia version.
 /// When implementing custom event handler behavior, consider inheriting from this class instead.
 /// </summary>
+/**
+ * @class DefaultTrackableEventHandler1
+ *
+ * @brief event tracking handler only for video-feature
+ *
+ * Since we have different image targets to track and video-feature has a specific behaviour when it is tracked,
+ * we created an extra tracking event handler script.
+ * It is a given script from Vuforia with small extended functions for the video-feature. 
+ */
 public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandler
 {
-    //public UnityEngine.Video.VideoPlayer video;
-    //public UnityEngine.Video.VideoPlayer canvasvideo;
-    //public Button playOn;
-    public GameObject ARBtn;
-    public VideoPlayer video;
+    /// <summary>
+    /// Screen-Button "Play On Screen"
+    /// </summary>
+    [FormerlySerializedAs("ARBtn")] public GameObject playOnScreenBtn;
+    /// <summary>
+    /// AR-Video
+    /// </summary>
+    [FormerlySerializedAs("video")] public VideoPlayer aRVideo;
+    /// <summary>
+    /// Screen-Video
+    /// </summary>
     public VideoPlayer screenVideo;
+    /// <summary>
+    /// Virtual-Button-Text ("PLAY" / "PAUSE")
+    /// </summary>
     public TextMesh virtualBtn;
     #region PROTECTED_MEMBER_VARIABLES
 
@@ -98,15 +117,20 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
 
     #region PROTECTED_METHODS
 
+    /**
+     * @brief method describes what will happen when image target is tracked
+     *
+     * AR-video will start playing and Virtual-Buttontext will set "PAUSE", if screen-video is not playing.
+     */
     protected virtual void OnTrackingFound()
     {
         if (!screenVideo.isPlaying)
         {
-            ARBtn.SetActive(true);
-            video.Play();
+            playOnScreenBtn.SetActive(true);
+            aRVideo.Play();
             virtualBtn.text = "PAUSE";
         }
-        //video.Play();
+        
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
@@ -126,13 +150,19 @@ public class DefaultTrackableEventHandler1 : MonoBehaviour, ITrackableEventHandl
     }
 
 
+    /**
+     * @brief method describes what will happen if tracking lost
+     *
+     * AR-video will pause, so if image target is tracked again, then it will continue playing from the same time
+     * later on. PlayOnScreen-Button will be disabled.
+     * 
+     */
     protected virtual void OnTrackingLost()
     {
-        //double current = video.time;
-        //video.Pause();
-        video.Pause();
+        
+        aRVideo.Pause();
         virtualBtn.text = "PLAY";
-        ARBtn.SetActive(false);
+        playOnScreenBtn.SetActive(false);
 
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);

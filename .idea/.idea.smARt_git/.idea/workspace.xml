@@ -2,9 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b020edc-7024-464b-85ef-1eda7c21f295" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/All-Scenes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/All-Scenes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AnswerButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AnswerButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Butterfly (Animated).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Butterfly (Animated).txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/01 - Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/01 - Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/butterfly_Albedo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/butterfly_Albedo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/hair_unity.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/hair_unity.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/stones.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/stones.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/butterfly_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/butterfly_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/hair_unity.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/hair_unity.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/stones.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/stones.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab/Butterfly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab/Butterfly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MusicManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MusicManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ReturnButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ReturnButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHandeling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHandeling.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,99 +54,136 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-455">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <marker date="1562688201171" expanded="true" signature="6:148" ph="..." />
-                <marker date="1562688201171" expanded="true" signature="191:2560" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="550:656" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="678:1421" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="1066:1173" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="1290:1415" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="1441:2558" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="1537:2011" ph="{...}" />
-                <marker date="1562688201171" expanded="true" signature="2103:2552" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="1054">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
-                <marker date="1562681857852" expanded="false" signature="6:128" ph="..." />
-                <marker date="1562681857852" expanded="true" signature="170:2102" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="437:450" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="508:653" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="686:760" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="790:874" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="905:1071" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="939:985" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1017:1064" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1098:1274" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1132:1185" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1216:1268" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1310:1620" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1495:1557" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1653:2100" ph="{...}" />
-                <marker date="1562681857852" expanded="true" signature="1668:1781" ph="/* QuizTarget.GetComponent&lt;TrackableBehaviour&gt;().CurrentStatus; ... */" />
-                <marker date="1562681857852" expanded="true" signature="2001:2082" ph="{...}" />
+                <marker date="1562747138306" expanded="false" signature="6:128" ph="..." />
+                <marker date="1562747138306" expanded="true" signature="170:2336" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="455:468" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="526:714" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="744:828" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="859:1025" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="893:939" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="971:1018" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1052:1228" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1086:1139" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1170:1222" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1264:1574" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1449:1511" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1620:1978" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="1866:1972" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="2017:2334" ph="{...}" />
+                <marker date="1562747138306" expanded="true" signature="2232:2328" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <marker date="1562747486845" expanded="false" signature="6:79" ph="..." />
+                <marker date="1562747486845" expanded="true" signature="125:437" ph="{...}" />
+                <marker date="1562747486845" expanded="true" signature="221:278" ph="{...}" />
+                <marker date="1562747486845" expanded="true" signature="322:367" ph="{...}" />
+                <marker date="1562747486845" expanded="true" signature="427:435" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+            <state relative-caret-position="720">
+              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
-                <marker date="1562687652405" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-                <marker date="1562687652405" expanded="false" signature="374:448" ph="..." />
-                <marker date="1562687652405" expanded="true" signature="450:742" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
-                <marker date="1562687652405" expanded="true" signature="825:4536" ph="{...}" />
-                <marker date="1562687652405" expanded="false" signature="935:1181" ph="PROTECTED_MEMBER_VARIABLES" />
-                <marker date="1562687652405" expanded="true" signature="1187:1667" ph="UNITY_MONOBEHAVIOUR_METHODS" />
-                <marker date="1562687652405" expanded="true" signature="1258:1458" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="1504:1620" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="1673:2996" ph="PUBLIC_METHODS" />
-                <marker date="1562687652405" expanded="true" signature="1701:1851" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-                <marker date="1562687652405" expanded="true" signature="1987:2962" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="2264:2399" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="2536:2669" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="2682:2956" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="2705:2916" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-                <marker date="1562687652405" expanded="true" signature="3002:4534" ph="PROTECTED_METHODS" />
-                <marker date="1562687652405" expanded="true" signature="3073:3763" ph="{...}" />
-                <marker date="1562687652405" expanded="true" signature="3809:4497" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+                <marker date="1563099518943" expanded="false" signature="374:481" ph="..." />
+                <marker date="1563099518943" expanded="true" signature="483:775" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+                <marker date="1563099518943" expanded="true" signature="776:1143" ph="/* @class DefaultTrackableEventHandler1 ... */" />
+                <marker date="1563099518943" expanded="true" signature="1226:5955" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="1233:1304" ph="/// Screen-Button &quot;Play On Screen&quot; ... " />
+                <marker date="1563099518943" expanded="true" signature="1380:1429" ph="/// AR-Video ... " />
+                <marker date="1563099518943" expanded="true" signature="1498:1551" ph="/// Screen-Video ... " />
+                <marker date="1563099518943" expanded="true" signature="1592:1671" ph="/// Virtual-Button-Text (&quot;PLAY&quot; / &quot;PAUSE&quot;) ... " />
+                <marker date="1563099518943" expanded="false" signature="1708:1954" ph="PROTECTED_MEMBER_VARIABLES" />
+                <marker date="1563099518943" expanded="false" signature="1960:2512" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+                <marker date="1563099518943" expanded="true" signature="2031:2263" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="2288:2309" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="2349:2465" ph="{...}" />
+                <marker date="1563099518943" expanded="false" signature="2518:3841" ph="PUBLIC_METHODS" />
+                <marker date="1563099518943" expanded="true" signature="2546:2696" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+                <marker date="1563099518943" expanded="true" signature="2832:3807" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="3109:3244" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="3381:3514" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="3527:3801" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="3550:3761" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+                <marker date="1563099518943" expanded="true" signature="3847:5953" ph="PROTECTED_METHODS" />
+                <marker date="1563099518943" expanded="true" signature="3878:4081" ph="/* @brief method describes what will happen when image target is tracked ... */" />
+                <marker date="1563099518943" expanded="true" signature="4126:4896" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="4168:4300" ph="{...}" />
+                <marker date="1563099518943" expanded="true" signature="4903:5163" ph="/* @brief method describes what will happen if tracking lost ... */" />
+                <marker date="1563099518943" expanded="true" signature="5207:5916" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="633">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="10" />
               <folding>
-                <marker date="1562687869181" expanded="false" signature="6:115" ph="..." />
-                <marker date="1562687869181" expanded="true" signature="196:1241" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="359:732" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="590:725" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="790:811" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="871:1157" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="912:1023" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="1053:1151" ph="{...}" />
-                <marker date="1562687869181" expanded="true" signature="1218:1239" ph="{...}" />
+                <marker date="1563098808772" expanded="false" signature="6:115" ph="..." />
+                <marker date="1563098808772" expanded="true" signature="117:227" ph="/* @class VirtualButtonHandeling ... */" />
+                <marker date="1563098808772" expanded="true" signature="307:1767" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="314:372" ph="/// AR-Video(-player) ... " />
+                <marker date="1563098808772" expanded="true" signature="431:491" ph="/// Virtual Button Text ... " />
+                <marker date="1563098808772" expanded="true" signature="597:970" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="828:963" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="981:1339" ph="/* @brief event handler for Virtual-Button ... */" />
+                <marker date="1563098808772" expanded="true" signature="1398:1684" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="1439:1550" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="1580:1678" ph="{...}" />
+                <marker date="1563098808772" expanded="true" signature="1745:1765" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <marker date="1563099431355" expanded="true" signature="6:148" ph="..." />
+                <marker date="1563099431355" expanded="true" signature="150:336" ph="/* @class VideoManager ... */" />
+                <marker date="1563099431355" expanded="true" signature="378:4781" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="385:457" ph="/// Screen-Button: &quot;Play on Screen&quot; ... " />
+                <marker date="1563099431355" expanded="true" signature="552:631" ph="/// Virtual-Button-Text (&quot;PLAY&quot; / &quot;PAUSE&quot;) ... " />
+                <marker date="1563099431355" expanded="true" signature="672:723" ph="/// AR - Video ... " />
+                <marker date="1563099431355" expanded="true" signature="784:839" ph="/// Screen - Video ... " />
+                <marker date="1563099431355" expanded="true" signature="904:945" ph="///  ... " />
+                <marker date="1563099431355" expanded="true" signature="990:1155" ph="/// current time which will be passed on to the other AR-video/Screen-Video, so the other video continues ... " />
+                <marker date="1563099431355" expanded="true" signature="1266:1378" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="1384:2201" ph="/* @brief event handler for playInAR-Button: change from Screen- Mode to AR-Mode (from screen video to AR-video) ... */" />
+                <marker date="1563099431355" expanded="true" signature="2229:2990" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="2623:2736" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="2853:2984" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="3001:3624" ph="/* @brief event handler for screen-Button: change from AR-Mode to Screen-Mode (from AR-video to screen-video) ... */" />
+                <marker date="1563099431355" expanded="true" signature="3650:4779" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="3746:4226" ph="{...}" />
+                <marker date="1563099431355" expanded="true" signature="4318:4773" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,19 +195,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" />
         <option value="$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" />
         <option value="$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="y" value="30" />
     <option name="width" value="2100" />
@@ -152,14 +234,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -210,11 +292,13 @@
       <option name="presentableId" value="Default" />
       <updated>1562665256993</updated>
       <workItem from="1562665266747" duration="18798000" />
+      <workItem from="1562746189241" duration="1656000" />
+      <workItem from="1563091700934" duration="7089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18798000" />
+    <option name="totallyTimeSpent" value="27543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,20 +311,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24641834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23424068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -248,12 +322,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,91 +381,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="1054">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
-            <marker date="1562681857852" expanded="false" signature="6:128" ph="..." />
-            <marker date="1562681857852" expanded="true" signature="170:2102" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="437:450" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="508:653" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="686:760" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="790:874" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="905:1071" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="939:985" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1017:1064" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1098:1274" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1132:1185" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1216:1268" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1310:1620" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1495:1557" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1653:2100" ph="{...}" />
-            <marker date="1562681857852" expanded="true" signature="1668:1781" ph="/* QuizTarget.GetComponent&lt;TrackableBehaviour&gt;().CurrentStatus; ... */" />
-            <marker date="1562681857852" expanded="true" signature="2001:2082" ph="{...}" />
+            <marker date="1562747138306" expanded="false" signature="6:128" ph="..." />
+            <marker date="1562747138306" expanded="true" signature="170:2336" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="455:468" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="526:714" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="744:828" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="859:1025" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="893:939" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="971:1018" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1052:1228" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1086:1139" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1170:1222" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1264:1574" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1449:1511" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1620:1978" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="1866:1972" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="2017:2334" ph="{...}" />
+            <marker date="1562747138306" expanded="true" signature="2232:2328" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="170">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
-            <marker date="1562687869181" expanded="false" signature="6:115" ph="..." />
-            <marker date="1562687869181" expanded="true" signature="196:1241" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="359:732" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="590:725" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="790:811" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="871:1157" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="912:1023" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="1053:1151" ph="{...}" />
-            <marker date="1562687869181" expanded="true" signature="1218:1239" ph="{...}" />
+            <marker date="1562747486845" expanded="false" signature="6:79" ph="..." />
+            <marker date="1562747486845" expanded="true" signature="125:437" ph="{...}" />
+            <marker date="1562747486845" expanded="true" signature="221:278" ph="{...}" />
+            <marker date="1562747486845" expanded="true" signature="322:367" ph="{...}" />
+            <marker date="1562747486845" expanded="true" signature="427:435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="10" />
+          <folding>
+            <marker date="1563098808772" expanded="false" signature="6:115" ph="..." />
+            <marker date="1563098808772" expanded="true" signature="117:227" ph="/* @class VirtualButtonHandeling ... */" />
+            <marker date="1563098808772" expanded="true" signature="307:1767" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="314:372" ph="/// AR-Video(-player) ... " />
+            <marker date="1563098808772" expanded="true" signature="431:491" ph="/// Virtual Button Text ... " />
+            <marker date="1563098808772" expanded="true" signature="597:970" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="828:963" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="981:1339" ph="/* @brief event handler for Virtual-Button ... */" />
+            <marker date="1563098808772" expanded="true" signature="1398:1684" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="1439:1550" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="1580:1678" ph="{...}" />
+            <marker date="1563098808772" expanded="true" signature="1745:1765" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <marker date="1563099431355" expanded="true" signature="6:148" ph="..." />
+            <marker date="1563099431355" expanded="true" signature="150:336" ph="/* @class VideoManager ... */" />
+            <marker date="1563099431355" expanded="true" signature="378:4781" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="385:457" ph="/// Screen-Button: &quot;Play on Screen&quot; ... " />
+            <marker date="1563099431355" expanded="true" signature="552:631" ph="/// Virtual-Button-Text (&quot;PLAY&quot; / &quot;PAUSE&quot;) ... " />
+            <marker date="1563099431355" expanded="true" signature="672:723" ph="/// AR - Video ... " />
+            <marker date="1563099431355" expanded="true" signature="784:839" ph="/// Screen - Video ... " />
+            <marker date="1563099431355" expanded="true" signature="904:945" ph="///  ... " />
+            <marker date="1563099431355" expanded="true" signature="990:1155" ph="/// current time which will be passed on to the other AR-video/Screen-Video, so the other video continues ... " />
+            <marker date="1563099431355" expanded="true" signature="1266:1378" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="1384:2201" ph="/* @brief event handler for playInAR-Button: change from Screen- Mode to AR-Mode (from screen video to AR-video) ... */" />
+            <marker date="1563099431355" expanded="true" signature="2229:2990" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="2623:2736" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="2853:2984" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="3001:3624" ph="/* @brief event handler for screen-Button: change from AR-Mode to Screen-Mode (from AR-video to screen-video) ... */" />
+            <marker date="1563099431355" expanded="true" signature="3650:4779" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="3746:4226" ph="{...}" />
+            <marker date="1563099431355" expanded="true" signature="4318:4773" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+        <state relative-caret-position="720">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding>
-            <marker date="1562687652405" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
-            <marker date="1562687652405" expanded="false" signature="374:448" ph="..." />
-            <marker date="1562687652405" expanded="true" signature="450:742" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
-            <marker date="1562687652405" expanded="true" signature="825:4536" ph="{...}" />
-            <marker date="1562687652405" expanded="false" signature="935:1181" ph="PROTECTED_MEMBER_VARIABLES" />
-            <marker date="1562687652405" expanded="true" signature="1187:1667" ph="UNITY_MONOBEHAVIOUR_METHODS" />
-            <marker date="1562687652405" expanded="true" signature="1258:1458" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="1504:1620" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="1673:2996" ph="PUBLIC_METHODS" />
-            <marker date="1562687652405" expanded="true" signature="1701:1851" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
-            <marker date="1562687652405" expanded="true" signature="1987:2962" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="2264:2399" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="2536:2669" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="2682:2956" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="2705:2916" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
-            <marker date="1562687652405" expanded="true" signature="3002:4534" ph="PROTECTED_METHODS" />
-            <marker date="1562687652405" expanded="true" signature="3073:3763" ph="{...}" />
-            <marker date="1562687652405" expanded="true" signature="3809:4497" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Skripts/VideoManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <marker date="1562688201171" expanded="true" signature="6:148" ph="..." />
-            <marker date="1562688201171" expanded="true" signature="191:2560" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="550:656" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="678:1421" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="1066:1173" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="1290:1415" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="1441:2558" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="1537:2011" ph="{...}" />
-            <marker date="1562688201171" expanded="true" signature="2103:2552" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
+            <marker date="1563099518943" expanded="false" signature="374:481" ph="..." />
+            <marker date="1563099518943" expanded="true" signature="483:775" ph="/// A custom handler that implements the ITrackableEventHandler interface. ... " />
+            <marker date="1563099518943" expanded="true" signature="776:1143" ph="/* @class DefaultTrackableEventHandler1 ... */" />
+            <marker date="1563099518943" expanded="true" signature="1226:5955" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="1233:1304" ph="/// Screen-Button &quot;Play On Screen&quot; ... " />
+            <marker date="1563099518943" expanded="true" signature="1380:1429" ph="/// AR-Video ... " />
+            <marker date="1563099518943" expanded="true" signature="1498:1551" ph="/// Screen-Video ... " />
+            <marker date="1563099518943" expanded="true" signature="1592:1671" ph="/// Virtual-Button-Text (&quot;PLAY&quot; / &quot;PAUSE&quot;) ... " />
+            <marker date="1563099518943" expanded="false" signature="1708:1954" ph="PROTECTED_MEMBER_VARIABLES" />
+            <marker date="1563099518943" expanded="false" signature="1960:2512" ph="UNITY_MONOBEHAVIOUR_METHODS" />
+            <marker date="1563099518943" expanded="true" signature="2031:2263" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="2288:2309" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="2349:2465" ph="{...}" />
+            <marker date="1563099518943" expanded="false" signature="2518:3841" ph="PUBLIC_METHODS" />
+            <marker date="1563099518943" expanded="true" signature="2546:2696" ph="///     Implementation of the ITrackableEventHandler function called when the ... " />
+            <marker date="1563099518943" expanded="true" signature="2832:3807" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="3109:3244" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="3381:3514" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="3527:3801" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="3550:3761" ph="/* For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND ... */" />
+            <marker date="1563099518943" expanded="true" signature="3847:5953" ph="PROTECTED_METHODS" />
+            <marker date="1563099518943" expanded="true" signature="3878:4081" ph="/* @brief method describes what will happen when image target is tracked ... */" />
+            <marker date="1563099518943" expanded="true" signature="4126:4896" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="4168:4300" ph="{...}" />
+            <marker date="1563099518943" expanded="true" signature="4903:5163" ph="/* @brief method describes what will happen if tracking lost ... */" />
+            <marker date="1563099518943" expanded="true" signature="5207:5916" ph="{...}" />
           </folding>
         </state>
       </provider>

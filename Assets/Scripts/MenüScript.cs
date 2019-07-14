@@ -79,10 +79,11 @@ public class MenüScript : MonoBehaviour
             var trackable = SchmetterlingQuizTarget.GetComponent<TrackableBehaviour>();
             var status = trackable.CurrentStatus;
         
-        //Debug.Log(status);
+        Debug.Log("schmetterling");
         if (status == TrackableBehaviour.Status.TRACKED)
             {
-                SceneManager.LoadScene("SchmetterlingQuizScene");
+                Debug.Log("sch2");
+                SceneManager.LoadScene(4);
             }
     }
 
@@ -91,9 +92,12 @@ public class MenüScript : MonoBehaviour
         var trackable = StatueQuizTarget.GetComponent<TrackableBehaviour>();
         var status = trackable.CurrentStatus;
 
+        Debug.Log("quiz");
+
         if (status == TrackableBehaviour.Status.TRACKED)
         {
-            SceneManager.LoadScene("StatueQuizScene");
+                 Debug.Log("quiz1");
+            SceneManager.LoadScene(3);
         }
     }
 }

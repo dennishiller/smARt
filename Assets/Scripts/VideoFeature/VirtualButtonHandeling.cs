@@ -4,10 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
 
+/**
+ * @class VirtualButtonHandeling
+ *
+ * @brief handles Virtual-Button for playing AR-Video (Play,Pause)
+ */
 public class VirtualButtonHandeling : MonoBehaviour, IVirtualButtonEventHandler
 {
-
+    /// <summary>
+    /// AR-Video(-player)
+    /// </summary>
     public UnityEngine.Video.VideoPlayer VideoPlayer;
+    /// <summary>
+    /// Virtual Button Text
+    /// </summary>
     public TextMesh text;
     
     
@@ -23,13 +33,18 @@ public class VirtualButtonHandeling : MonoBehaviour, IVirtualButtonEventHandler
         }
 
     }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /**
+     * @brief event handler for Virtual-Button
+     *
+     * 2 different cases for Virtual Button when it is pressed:
+     * case 1 - AR-video is playing: AR-video will pause, Virtual-Buttontext set to "PLAY";
+     * case 2 - AR-video is pausing: AR-Video will play, Virtual-Buttontext set to "PAUSE"
+     *
+     * @param vb virtual button
+     *
+     */
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         if (VideoPlayer.isPlaying)
@@ -48,6 +63,6 @@ public class VirtualButtonHandeling : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        
+       
     }
 }
