@@ -4,14 +4,36 @@ using UnityEngine;
 using Vuforia;
 using UnityEngine.SceneManagement;
 
-
+/**
+ * @class MenüScript
+ * 
+ * @brief is managing some Vuforia features. Calls the quiz and the butterfly model which is pausible.
+ */
 public class MenüScript : MonoBehaviour
 {
-    bool cameraOn = true;
+    /// <summary>
+    /// boolean to check if pause-button was pressed. if true, butterfly animation is paused
+    /// </summary>   
     bool pause = false;
+
+    /// <summary>
+    /// Pause button
+    /// </summary>   
     public GameObject pause_button;
+
+    /// <summary>
+    /// butterfly quiz target
+    /// </summary>  
     public GameObject SchmetterlingQuizTarget;
+
+    /// <summary>
+    /// statue quiz target
+    /// </summary>  
     public GameObject StatueQuizTarget;
+
+    /// <summary>
+    /// butterfly model target
+    /// </summary>  
     public GameObject ButterflyTarget;
 
     // Start is called before the first frame update
@@ -30,12 +52,13 @@ public class MenüScript : MonoBehaviour
         showPauseButton();
     }
 
-    public void backToMenu()
-    {
-        //cameraOn = false;
-        SceneManager.LoadScene("MainMenu");
-    }
 
+    /**
+     * @brief if pause button is pressed, it changes boolean pause to true/false. 
+     * 
+     * case 1 - if pause = false -> pause = true
+     * case 2 - if pause = true -> pause = false
+     */
     public void pauseButton()
     {
         if (pause == false)
@@ -49,6 +72,12 @@ public class MenüScript : MonoBehaviour
 
     }
 
+    /**
+     * @brief butterfly animation is paused when pause is true, and is playing again if pause is false.
+     * 
+     * case 1 - if animation is playing, pause it.
+     * case 2 - if animation is paused, play it.
+     */
     void pauseAnimation()
     {
         if (pause == false)
@@ -61,6 +90,12 @@ public class MenüScript : MonoBehaviour
         }
     }
 
+    /**
+     * @brief checks if butterfly target is tracked. if its tracked the pause-button will appear. Else the button will be hidden.
+     *
+     * case 1 - if its tracked, show button
+     * case 2 - if its untracked, hide button
+     */
     private void showPauseButton()
     {
         var trackable = ButterflyTarget.GetComponent<TrackableBehaviour>();
@@ -74,6 +109,9 @@ public class MenüScript : MonoBehaviour
 
     }
 
+    /**
+     * @brief if butterly quiz target is tracked, a scene change will happen, which shows the quiz.
+     */
     private void ChangeToSchmetterlingQuiz()
     {
             var trackable = SchmetterlingQuizTarget.GetComponent<TrackableBehaviour>();
@@ -82,21 +120,20 @@ public class MenüScript : MonoBehaviour
         Debug.Log("schmetterling");
         if (status == TrackableBehaviour.Status.TRACKED)
             {
-                Debug.Log("sch2");
                 SceneManager.LoadScene(4);
             }
     }
 
+    /**
+    * @brief if statue quiz target is tracked, a scene change will happen, which shows the quiz.
+    */
     private void ChangeToStatueQuiz()
     {
         var trackable = StatueQuizTarget.GetComponent<TrackableBehaviour>();
         var status = trackable.CurrentStatus;
 
-        Debug.Log("quiz");
-
         if (status == TrackableBehaviour.Status.TRACKED)
         {
-                 Debug.Log("quiz1");
             SceneManager.LoadScene(3);
         }
     }
