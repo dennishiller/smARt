@@ -32,12 +32,4 @@ public class QuizManager : MonoBehaviour, ITrackableEventHandler
             gameCanvas.SetActive(false);
         }
     }
-	
-    void OnGUI() {
-        if (mShowQuiz)
-        {
-            
-
-        }
-    }
 }

@@ -6,13 +6,37 @@ using System.Collections.Generic;
 
 public class GameController : MonoBehaviour
 {
+    /// <summary>
+    /// Texttemplate for Question
+    /// </summary>
     public Text questionDisplayText;
+    /// <summary>
+    /// Texttemplate for Score
+    /// </summary>
     public Text scoreDisplayText;
+    /// <summary>
+    /// Objectpool to generate Answerbuttons
+    /// </summary>
     public SimpleObjectPool answerButtonObjectPool;
+    /// <summary>
+    /// Gui element where Buttons are inserted
+    /// </summary>
     public Transform answerButtonParent;
+    /// <summary>
+    /// Gui element where Questiontext is located
+    /// </summary>
     public GameObject questionDisplay;
+    /// <summary>
+    /// Overlay where Endgame Display is located
+    /// </summary>
     public GameObject roundEndDisplay;
+    /// <summary>
+    /// Banner to inform User if the Answer was correct
+    /// </summary>
     public GameObject correctDisplay;
+    /// <summary>
+    /// Banner to inform User if the Answer was not correct
+    /// </summary>
     public GameObject badDisplay;
 
 
@@ -111,6 +135,7 @@ public class GameController : MonoBehaviour
         badDisplay.SetActive(false);
     }
 
+    
     IEnumerator colorChangingBad()
     {
         for (float i = 1; i >= 0; i -= Time.deltaTime)
@@ -151,10 +176,5 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("MenuScreen");
     }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
+    
 }

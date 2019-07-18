@@ -61,27 +61,33 @@
             </e>
           </e>
         </e>
-        <e p="Prefabs" t="Include">
-          <e p="Butterfly (Animated)" t="Include">
-            <e p="Butterfly (Animated).txt" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="AnswerButton.cs" t="Include" />
           <e p="AnswerData.cs" t="Include" />
+          <e p="AudioManager.cs" t="Include" />
           <e p="ButtonController.cs" t="Include" />
+          <e p="ButtonHandler.cs" t="Include" />
           <e p="DataController.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="Instructions.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MenüScript.cs" t="Include" />
+          <e p="MusicMManager.cs" t="Include" />
           <e p="QuestionData.cs" t="Include" />
           <e p="QuizManager.cs" t="Include" />
           <e p="RoundData.cs" t="Include" />
           <e p="SimpleObjectPool.cs" t="Include" />
+          <e p="SoundMenu.cs" t="Include" />
           <e p="SoundonClick.cs" t="Include" />
+          <e p="VideoFeature" t="Include">
+            <e p="VideoManager.cs" t="Include" />
+            <e p="VirtualButtonHandeling.cs" t="Include" />
+          </e>
         </e>
+        <e p="sk.cs" t="Include" />
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
+            <e p="Demo.xml" t="Include" />
             <e p="MMBeleg.xml" t="Include" />
           </e>
         </e>
@@ -106,7 +112,6 @@
             <e p="Internal" t="Include">
               <e p="RuntimeOpenSourceInitializer.cs" t="Include" />
             </e>
-            <e p="VideoRotation.cs" t="Include" />
             <e p="VuforiaScripts.asmdef" t="Include" />
           </e>
           <e p="Shaders" t="Include">

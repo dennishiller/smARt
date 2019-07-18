@@ -19,6 +19,7 @@
       <Path>QCAR</Path>
       <Path>Quiz MM</Path>
       <Path>Temp</Path>
+      <Path>build</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
