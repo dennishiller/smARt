@@ -39,17 +39,39 @@ public class GameController : MonoBehaviour
     /// </summary>
     public GameObject badDisplay;
 
-
+    /// <summary>
+    /// controls data
+    /// </summary>
     private DataController dataController;
+    /// <summary>
+    /// holds information about current round data
+    /// </summary>
     private RoundData currentRoundData;
+    /// <summary>
+    /// Pool of questions
+    /// </summary>
     private QuestionData[] questionPool;
-
-    private bool isRoundActive;
+    
+    /// <summary>
+    /// runner variable
+    /// </summary>
     private int questionIndex;
+    /// <summary>
+    /// score for round
+    /// </summary>
     private int playerScore;
+    /// <summary>
+    /// All Answerbuttons
+    /// </summary>
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
-    // Use this for initialization
+    
+    
+    /**
+     * @brief initialize current round
+     *
+     * resets display, load question into gui
+     */
     void Start()
     {
         roundEndDisplay.SetActive(false);
@@ -61,9 +83,15 @@ public class GameController : MonoBehaviour
         questionIndex = 0;
 
         ShowQuestion();
-        isRoundActive = true;
     }
 
+    
+    /**
+     * @brief shows actual question and answerbuttons
+     *
+     * First removes all "old" answer buttons then loads question from questionpool and displays it on gui. after that
+     * answerbutton will be generated and attatched to gui 
+     */
     private void ShowQuestion()
     {
         RemoveAnswerButtons();
@@ -81,6 +109,12 @@ public class GameController : MonoBehaviour
         }
     }
 
+    
+    /**
+     * @brief removes all answerbuttons gameobjects from gui 
+     *
+     * removes all answerbuttons gameobjects from gui 
+     */
     private void RemoveAnswerButtons()
     {
         while (answerButtonGameObjects.Count > 0)
@@ -91,13 +125,18 @@ public class GameController : MonoBehaviour
     }
 
 
+    /**
+   * @brief handling of what is happening when answebutton is clicked 
+   *
+   * Checks if the answer is correct or false. Show the Display of correctAnswer/badAnswer.
+     * Loads new Question if Questionpool isnt at max. If all questions are asked, the game is over.
+   */
     public void AnswerButtonClicked(bool isCorrect)
     {
         if (isCorrect)
         {
             playerScore += currentRoundData.pointsAddedForCorrectAnswer;
             StartCoroutine(correctAnswerDisplay());
-            Debug.Log("NICE!");
         }
         else
         {
@@ -118,6 +157,11 @@ public class GameController : MonoBehaviour
         //Wait for 4 seconds
     }
 
+    /**
+   * @brief Display that the Answer was correct 
+   *
+   * Shows a litte banner for a seconds which indicates the player that he answered right
+   */
     IEnumerator correctAnswerDisplay()
     {
         StartCoroutine(colorChangingGood());
@@ -125,6 +169,12 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         correctDisplay.SetActive(false);
     }
+    
+    /**
+* @brief Display that the Answer was false 
+*
+* Shows a litte banner for a seconds which indicates the player that he answered false
+*/
     IEnumerator badAnswerDisplay()
     {
      
@@ -135,42 +185,53 @@ public class GameController : MonoBehaviour
         badDisplay.SetActive(false);
     }
 
-    
+    /**
+* @brief Fading the Bad Display oppacity
+*
+*/
     IEnumerator colorChangingBad()
     {
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {   
             Image bg = badDisplay.GetComponent<Image>();
-            // set color with i as alpha
             bg.color = new Color(1, 0, 0, i);
             yield return null;
         }
     }
 
+    /**
+* @brief Fading the Goold Display oppacity
+*
+*/
     IEnumerator colorChangingGood()
     {
         for (float i = 0; i <= 1; i += Time.deltaTime)
             {
                 Image bg = correctDisplay.GetComponent<Image>();
-                // set color with i as alpha
                 bg.color = new Color(0, 1, 0, i);
                 yield return null;
             }
         }
 
 
+    /**
+* @brief Ends the round
+*
+     * removes all buttons and shows the endgame display
+*/
     public void EndRound()
     {
-        isRoundActive = false;
         RemoveAnswerButtons();
         questionDisplayText.text = "";
-        Debug.Log(playerScore);
-
-
         scoreDisplayText.text = "You reached " + playerScore + " Points";
         questionDisplay.SetActive(false);
         roundEndDisplay.SetActive(true);
     }
+    
+    /**
+* @brief return to the MenuScene
+*
+*/
 
     public void ReturnToMenu()
     {
