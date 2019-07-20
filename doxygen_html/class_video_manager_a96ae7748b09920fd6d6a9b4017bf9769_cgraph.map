@@ -1,0 +1,5 @@
+<map id="VideoManager.Start" name="VideoManager.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,143,57"/>
+<area shape="rect" id="node2" href="$class_video_manager.html#a486cddf43736780a05b9cec1aa4a380e" title="event handler for playInAR&#45;Button: change from Screen&#45; Mode to AR&#45;Mode (from screen video to AR&#45;video..." alt="" coords="191,5,361,32"/>
+<area shape="rect" id="node3" href="$class_video_manager.html#a6b82e660fc0a139051fa6288b9c75b8f" title="event handler for screen&#45;Button: change from AR&#45;Mode to Screen&#45;Mode (from AR&#45;video to screen&#45;video)" alt="" coords="199,56,353,83"/>
+</map>

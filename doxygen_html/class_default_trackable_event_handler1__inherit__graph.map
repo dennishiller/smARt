@@ -1,0 +1,5 @@
+<map id="DefaultTrackableEventHandler1" name="DefaultTrackableEventHandler1">
+<area shape="rect" id="node1" title="A custom handler that implements the ITrackableEventHandler interface." alt="" coords="39,80,240,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,5,298,32"/>
+</map>

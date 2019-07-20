@@ -1,0 +1,7 @@
+<map id="DataController" name="DataController">
+<area shape="rect" id="node1" title=" " alt="" coords="50,273,154,300"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,184,116,211"/>
+<area shape="rect" id="node3" href="$class_round_data.html" title="Holds all information about the actual Round e.g. Points and Questiondata." alt="" coords="140,184,227,211"/>
+<area shape="rect" id="node4" href="$class_question_data.html" title="QuestionData Objects are generated out of that Template." alt="" coords="133,95,234,121"/>
+<area shape="rect" id="node5" href="$class_answer_data.html" title="AnswerData Objects are generated out of that Template." alt="" coords="137,5,229,32"/>
+</map>

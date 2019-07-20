@@ -1,0 +1,5 @@
+<map id="AnswerButton.HandleClick" name="AnswerButton.HandleClick">
+<area shape="rect" id="node1" title="event handler for clicking a button" alt="" coords="5,13,181,39"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a58807ab5d4d8c8ad9f7779f6736b9a4f" title="handling of what is happening when answebutton is clicked" alt="" coords="229,5,427,47"/>
+<area shape="rect" id="node3" href="$class_game_controller.html#a449a2fb4f89c02e85e2a791b5620f041" title="Ends the round." alt="" coords="475,13,651,39"/>
+</map>

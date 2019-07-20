@@ -14,10 +14,12 @@ public class AnswerButton : MonoBehaviour
     /// AnswerText
     /// </summary>
     public Text answerText;
+
     /// <summary>
     /// AnswerData - carries Answerdata
     /// </summary>
     private AnswerData answerData;
+
     /// <summary>
     /// GameController
     /// </summary>

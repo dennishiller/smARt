@@ -1,0 +1,4 @@
+<map id="DefaultTrackableEventHandler1.OnTrackingLost" name="DefaultTrackableEventHandler1.OnTrackingLost">
+<area shape="rect" id="node1" title="method describes what will happen if tracking lost" alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node2" href="$class_default_trackable_event_handler1.html#a3557b88a7681f016bc814b1f50de0a98" title="Implementation of the ITrackableEventHandler function called when the tracking state changes." alt="" coords="5,5,211,47"/>
+</map>

@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b020edc-7024-464b-85ef-1eda7c21f295" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smARt_git/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AnswerButton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AnswerButton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Butterfly (Animated).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Butterfly (Animated).txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/01 - Default.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/01 - Default.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/butterfly_Albedo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/butterfly_Albedo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/hair_unity.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/hair_unity.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/stones.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/Materials/stones.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/butterfly_Albedo.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/butterfly_Albedo.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/hair_unity.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/butterfly.fbm/hair_unity.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/stones.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/FBX/stones.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab/Butterfly.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Butterfly (Animated)/Prefab/Butterfly.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MusicManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MusicManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ReturnButton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ReturnButton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHandeling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VirtualButtonHandeling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,26 +17,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="1666">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
-                <marker date="1562747138306" expanded="false" signature="6:128" ph="..." />
-                <marker date="1562747138306" expanded="true" signature="170:2336" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="455:468" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="526:714" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="744:828" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="859:1025" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="893:939" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="971:1018" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1052:1228" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1086:1139" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1170:1222" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1264:1574" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1449:1511" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1620:1978" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="1866:1972" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="2017:2334" ph="{...}" />
-                <marker date="1562747138306" expanded="true" signature="2232:2328" ph="{...}" />
+                <marker date="1563610682320" expanded="false" signature="6:128" ph="..." />
+                <marker date="1563610682320" expanded="true" signature="130:265" ph="/* @class MenüScript ... */" />
+                <marker date="1563610682320" expanded="true" signature="305:3539" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="312:440" ph="/// boolean to check if pause-button was pressed. if true, butterfly animation is paused ... " />
+                <marker date="1563610682320" expanded="true" signature="470:526" ph="/// Pause button ... " />
+                <marker date="1563610682320" expanded="true" signature="568:632" ph="/// butterfly quiz target ... " />
+                <marker date="1563610682320" expanded="true" signature="685:746" ph="/// statue quiz target ... " />
+                <marker date="1563610682320" expanded="true" signature="792:857" ph="/// butterfly model target ... " />
+                <marker date="1563610682320" expanded="true" signature="967:980" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1038:1226" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1233:1433" ph="/* @brief if pause button is pressed, it changes boolean pause to true/false. ... */" />
+                <marker date="1563610682320" expanded="true" signature="1463:1629" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1497:1543" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1575:1622" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1635:1858" ph="/* @brief butterfly animation is paused when pause is true, and is playing again if pause is false. ... */" />
+                <marker date="1563610682320" expanded="true" signature="1884:2060" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="1918:1971" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="2002:2054" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="2066:2304" ph="/* @brief checks if butterfly target is tracked. if its tracked the pause-button will appear. Else the button wil ... */" />
+                <marker date="1563610682320" expanded="true" signature="2339:2649" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="2524:2586" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="2655:2766" ph="/* @brief if butterly quiz target is tracked, a scene change will happen, which shows the quiz. ... */" />
+                <marker date="1563610682320" expanded="true" signature="2811:3134" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="3057:3128" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="3140:3247" ph="/* @brief if statue quiz target is tracked, a scene change will happen, which shows the quiz. ... */" />
+                <marker date="1563610682320" expanded="true" signature="3285:3537" ph="{...}" />
+                <marker date="1563610682320" expanded="true" signature="3472:3531" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,23 +55,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <marker date="1562747486845" expanded="false" signature="6:79" ph="..." />
-                <marker date="1562747486845" expanded="true" signature="125:437" ph="{...}" />
-                <marker date="1562747486845" expanded="true" signature="221:278" ph="{...}" />
-                <marker date="1562747486845" expanded="true" signature="322:367" ph="{...}" />
-                <marker date="1562747486845" expanded="true" signature="427:435" ph="{...}" />
+                <marker date="1563610682300" expanded="false" signature="6:79" ph="..." />
+                <marker date="1563610682300" expanded="true" signature="81:146" ph="/* @class DataCongfolldf ... */" />
+                <marker date="1563610682300" expanded="true" signature="190:483" ph="{...}" />
+                <marker date="1563610682300" expanded="true" signature="198:281" ph="/// allRoundData - carries data of alle rounds ... " />
+                <marker date="1563610682300" expanded="true" signature="329:394" ph="/* @brief returns the current round data ... */" />
+                <marker date="1563610682300" expanded="true" signature="437:481" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="663">
               <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
                 <marker date="1563099518943" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
@@ -137,10 +107,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <marker date="1563617663067" expanded="true" signature="6:80" ph="..." />
+                <marker date="1563617663067" expanded="true" signature="82:174" ph="/* @class AnswerButton ... */" />
+                <marker date="1563617663067" expanded="true" signature="216:1212" ph="{...}" />
+                <marker date="1563617663067" expanded="true" signature="223:274" ph="/// AnswerText ... " />
+                <marker date="1563617663067" expanded="true" signature="308:380" ph="/// AnswerData - carries Answerdata ... " />
+                <marker date="1563617663067" expanded="true" signature="421:476" ph="/// GameController ... " />
+                <marker date="1563617663067" expanded="true" signature="526:578" ph="/* @brief searching for GameController on init ... */" />
+                <marker date="1563617663067" expanded="true" signature="595:668" ph="{...}" />
+                <marker date="1563617663067" expanded="true" signature="674:782" ph="/* @brief initialisation of class ... */" />
+                <marker date="1563617663067" expanded="true" signature="821:909" ph="{...}" />
+                <marker date="1563617663067" expanded="true" signature="916:1102" ph="/* @brief event handler for clicking a button ... */" />
+                <marker date="1563617663067" expanded="true" signature="1132:1210" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
+            <state relative-caret-position="680">
               <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="10" />
               <folding>
                 <marker date="1563098808772" expanded="false" signature="6:115" ph="..." />
@@ -163,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="544">
               <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
               <folding>
                 <marker date="1563099431355" expanded="true" signature="6:148" ph="..." />
@@ -196,6 +189,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs" root0="FORCE_HIGHLIGHTING" />
@@ -212,6 +206,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs" />
       </list>
     </option>
   </component>
@@ -294,11 +289,12 @@
       <workItem from="1562665266747" duration="18798000" />
       <workItem from="1562746189241" duration="1656000" />
       <workItem from="1563091700934" duration="7089000" />
+      <workItem from="1563617113129" duration="1739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27543000" />
+    <option name="totallyTimeSpent" value="29282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +308,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23424068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23782235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,47 +381,58 @@
     <entry file="file://$PROJECT_DIR$/Assets/Skripts/VirtualButtonHandeling.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MenüScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="1666">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
-            <marker date="1562747138306" expanded="false" signature="6:128" ph="..." />
-            <marker date="1562747138306" expanded="true" signature="170:2336" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="455:468" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="526:714" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="744:828" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="859:1025" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="893:939" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="971:1018" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1052:1228" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1086:1139" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1170:1222" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1264:1574" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1449:1511" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1620:1978" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="1866:1972" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="2017:2334" ph="{...}" />
-            <marker date="1562747138306" expanded="true" signature="2232:2328" ph="{...}" />
+            <marker date="1563610682320" expanded="false" signature="6:128" ph="..." />
+            <marker date="1563610682320" expanded="true" signature="130:265" ph="/* @class MenüScript ... */" />
+            <marker date="1563610682320" expanded="true" signature="305:3539" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="312:440" ph="/// boolean to check if pause-button was pressed. if true, butterfly animation is paused ... " />
+            <marker date="1563610682320" expanded="true" signature="470:526" ph="/// Pause button ... " />
+            <marker date="1563610682320" expanded="true" signature="568:632" ph="/// butterfly quiz target ... " />
+            <marker date="1563610682320" expanded="true" signature="685:746" ph="/// statue quiz target ... " />
+            <marker date="1563610682320" expanded="true" signature="792:857" ph="/// butterfly model target ... " />
+            <marker date="1563610682320" expanded="true" signature="967:980" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1038:1226" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1233:1433" ph="/* @brief if pause button is pressed, it changes boolean pause to true/false. ... */" />
+            <marker date="1563610682320" expanded="true" signature="1463:1629" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1497:1543" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1575:1622" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1635:1858" ph="/* @brief butterfly animation is paused when pause is true, and is playing again if pause is false. ... */" />
+            <marker date="1563610682320" expanded="true" signature="1884:2060" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="1918:1971" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="2002:2054" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="2066:2304" ph="/* @brief checks if butterfly target is tracked. if its tracked the pause-button will appear. Else the button wil ... */" />
+            <marker date="1563610682320" expanded="true" signature="2339:2649" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="2524:2586" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="2655:2766" ph="/* @brief if butterly quiz target is tracked, a scene change will happen, which shows the quiz. ... */" />
+            <marker date="1563610682320" expanded="true" signature="2811:3134" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="3057:3128" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="3140:3247" ph="/* @brief if statue quiz target is tracked, a scene change will happen, which shows the quiz. ... */" />
+            <marker date="1563610682320" expanded="true" signature="3285:3537" ph="{...}" />
+            <marker date="1563610682320" expanded="true" signature="3472:3531" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <marker date="1562747486845" expanded="false" signature="6:79" ph="..." />
-            <marker date="1562747486845" expanded="true" signature="125:437" ph="{...}" />
-            <marker date="1562747486845" expanded="true" signature="221:278" ph="{...}" />
-            <marker date="1562747486845" expanded="true" signature="322:367" ph="{...}" />
-            <marker date="1562747486845" expanded="true" signature="427:435" ph="{...}" />
+            <marker date="1563610682300" expanded="false" signature="6:79" ph="..." />
+            <marker date="1563610682300" expanded="true" signature="81:146" ph="/* @class DataCongfolldf ... */" />
+            <marker date="1563610682300" expanded="true" signature="190:483" ph="{...}" />
+            <marker date="1563610682300" expanded="true" signature="198:281" ph="/// allRoundData - carries data of alle rounds ... " />
+            <marker date="1563610682300" expanded="true" signature="329:394" ph="/* @brief returns the current round data ... */" />
+            <marker date="1563610682300" expanded="true" signature="437:481" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VirtualButtonHandeling.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
+        <state relative-caret-position="680">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="10" />
           <folding>
             <marker date="1563098808772" expanded="false" signature="6:115" ph="..." />
@@ -446,7 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoFeature/VideoManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="544">
           <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
             <marker date="1563099431355" expanded="true" signature="6:148" ph="..." />
@@ -473,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="663">
           <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding>
             <marker date="1563099518943" expanded="true" signature="0:366" ph="/* ============================================================================== ... */" />
@@ -503,6 +510,27 @@
             <marker date="1563099518943" expanded="true" signature="4168:4300" ph="{...}" />
             <marker date="1563099518943" expanded="true" signature="4903:5163" ph="/* @brief method describes what will happen if tracking lost ... */" />
             <marker date="1563099518943" expanded="true" signature="5207:5916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnswerButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <marker date="1563617663067" expanded="true" signature="6:80" ph="..." />
+            <marker date="1563617663067" expanded="true" signature="82:174" ph="/* @class AnswerButton ... */" />
+            <marker date="1563617663067" expanded="true" signature="216:1212" ph="{...}" />
+            <marker date="1563617663067" expanded="true" signature="223:274" ph="/// AnswerText ... " />
+            <marker date="1563617663067" expanded="true" signature="308:380" ph="/// AnswerData - carries Answerdata ... " />
+            <marker date="1563617663067" expanded="true" signature="421:476" ph="/// GameController ... " />
+            <marker date="1563617663067" expanded="true" signature="526:578" ph="/* @brief searching for GameController on init ... */" />
+            <marker date="1563617663067" expanded="true" signature="595:668" ph="{...}" />
+            <marker date="1563617663067" expanded="true" signature="674:782" ph="/* @brief initialisation of class ... */" />
+            <marker date="1563617663067" expanded="true" signature="821:909" ph="{...}" />
+            <marker date="1563617663067" expanded="true" signature="916:1102" ph="/* @brief event handler for clicking a button ... */" />
+            <marker date="1563617663067" expanded="true" signature="1132:1210" ph="{...}" />
           </folding>
         </state>
       </provider>

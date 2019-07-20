@@ -71,7 +71,6 @@
           <e p="ButtonHandler.cs" t="Include" />
           <e p="DataController.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
-          <e p="Instructions.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MenüScript.cs" t="Include" />
           <e p="MusicMManager.cs" t="Include" />

@@ -1,0 +1,4 @@
+<map id="GameController.AnswerButtonClicked" name="GameController.AnswerButtonClicked">
+<area shape="rect" id="node1" title="handling of what is happening when answebutton is clicked" alt="" coords="5,5,203,47"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a449a2fb4f89c02e85e2a791b5620f041" title="Ends the round." alt="" coords="251,13,427,39"/>
+</map>

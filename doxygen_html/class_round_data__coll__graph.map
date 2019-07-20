@@ -1,0 +1,5 @@
+<map id="RoundData" name="RoundData">
+<area shape="rect" id="node1" title="Holds all information about the actual Round e.g. Points and Questiondata." alt="" coords="13,184,99,211"/>
+<area shape="rect" id="node2" href="$class_question_data.html" title="QuestionData Objects are generated out of that Template." alt="" coords="5,95,107,121"/>
+<area shape="rect" id="node3" href="$class_answer_data.html" title="AnswerData Objects are generated out of that Template." alt="" coords="10,5,102,32"/>
+</map>

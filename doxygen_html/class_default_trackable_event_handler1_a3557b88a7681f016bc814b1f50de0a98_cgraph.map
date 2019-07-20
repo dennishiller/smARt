@@ -1,0 +1,5 @@
+<map id="DefaultTrackableEventHandler1.OnTrackableStateChanged" name="DefaultTrackableEventHandler1.OnTrackableStateChanged">
+<area shape="rect" id="node1" title="Implementation of the ITrackableEventHandler function called when the tracking state changes." alt="" coords="5,39,211,80"/>
+<area shape="rect" id="node2" href="$class_default_trackable_event_handler1.html#a8e56c8dce533372e1b80357423d29c4a" title="method describes what will happen when image target is tracked" alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node3" href="$class_default_trackable_event_handler1.html#aa8e9b037ec6b70e08f2156c90fb1a903" title="method describes what will happen if tracking lost" alt="" coords="259,71,464,112"/>
+</map>
